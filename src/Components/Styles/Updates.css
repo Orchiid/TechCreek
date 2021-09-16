@@ -1,0 +1,82 @@
+.card {
+  border: none !important;
+}
+
+.heading {
+  margin: 5rem 0rem 5rem 5rem;
+}
+
+.main-heading {
+  display: inline;
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #0269BA;
+  text-transform: uppercase;
+}
+
+.viewupdates {
+  position: relative;
+  top: -0.5rem;
+  left: 32rem;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: large;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(2, 105, 186, 0.8);
+}
+
+.cover {
+  width: 50%;
+  position: relative !important;
+  left: 20rem;
+}
+
+.card-title {
+  padding-bottom: 1rem;
+}
+
+.card-text {
+  padding-bottom: 1rem;
+}
+
+.readmore {
+  position: relative;
+  background-color: transparent;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 19px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: rgba(2, 105, 186, 0.8);
+}
+
+.date {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  /* or 20px */
+  text-align: right;
+  color: #000000;
+}
+/*# sourceMappingURL=Updates.css.map */

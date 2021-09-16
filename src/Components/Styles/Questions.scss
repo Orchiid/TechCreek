@@ -1,0 +1,27 @@
+.questions{
+    margin-top: 20rem;
+}
+
+
+.asked{
+font-family: Archivo;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 44px;
+
+letter-spacing: -0.02em;
+
+}
+
+.accordion-item{
+    border-left: none !important;
+    border-right: none !important;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    font-feature-settings: 'ordn' on;
+}

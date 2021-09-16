@@ -1,0 +1,86 @@
+.navbar {
+  position: fixed;
+  height: 3rem;
+}
+
+.navbar-brand {
+  padding-top: 3rem !important;
+}
+
+.bgc {
+  background-color: transparent !important;
+}
+
+.active1 {
+  color: blue !important;
+  margin-top: 5px;
+  background-color: white;
+  border-color: #ffffff;
+  text-transform: uppercase;
+  padding: .2rem .6rem !important;
+  font-weight: 600 !important;
+  border-radius: 2rem;
+}
+
+.active2:hover {
+  color: blue !important;
+  background-color: white;
+  padding: .2rem .7rem !important;
+  font-weight: 600 !important;
+  border-radius: 2rem;
+}
+
+.active2:focus {
+  background-color: white;
+}
+
+.text-sucess {
+  color: white !important;
+}
+
+.nav-link {
+  font-weight: 300;
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+.dropdowns {
+  display: block;
+  width: 100%;
+  padding: .25rem 1rem;
+  clear: both;
+  font-weight: 400;
+  color: black;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  border: 0;
+}
+
+.dropdowns:focus, .dropdowns:hover {
+  background-color: #fff;
+  color: #0269BA;
+  border-left: 3px #0269BA solid;
+}
+
+.login {
+  color: white;
+  background-color: #038c3300;
+  border-color: #ffffff;
+  border: 1px solid;
+  padding: .1rem .8rem;
+  margin: -20px;
+  border-radius: 1rem;
+}
+
+.login:hover, .login:focus {
+  padding: .2rem 1rem;
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    margin-top: -20px;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

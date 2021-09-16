@@ -1,0 +1,341 @@
+.EventMail-section {
+  margin-bottom: 10rem;
+  margin-top: 2rem;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+.title1 {
+  position: relative;
+  background-color: #186656;
+  padding: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.first {
+  position: relative;
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  /* identical to box height */
+  padding-left: 3.5rem;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+
+.second {
+  position: relative;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+  /* or 22px */
+  padding-top: 2.2rem;
+  padding-left: 3.5rem;
+  -webkit-font-feature-settings: 'ordn' on;
+          font-feature-settings: 'ordn' on;
+  max-width: 27rem;
+  color: #FFFFFF;
+}
+
+.submits {
+  position: relative;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  left: 3.5rem;
+  line-height: 21px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #45B2E1;
+  border-color: #0269BA;
+  border: 1px solid transparent;
+  padding: 1rem 10rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.name1 {
+  position: relative;
+  color: white;
+  padding-left: 3.5rem;
+}
+
+.name1 ::-webkit-input-placeholder {
+  position: relative;
+  color: white;
+  left: -3.8rem;
+  font-weight: lighter;
+  font-size: .75rem;
+}
+
+.name1 :-ms-input-placeholder {
+  position: relative;
+  color: white;
+  left: -3.8rem;
+  font-weight: lighter;
+  font-size: .75rem;
+}
+
+.name1 ::-ms-input-placeholder {
+  position: relative;
+  color: white;
+  left: -3.8rem;
+  font-weight: lighter;
+  font-size: .75rem;
+}
+
+.name1 ::placeholder {
+  position: relative;
+  color: white;
+  left: -3.8rem;
+  font-weight: lighter;
+  font-size: .75rem;
+}
+
+.forms {
+  color: white !important;
+  background-color: transparent !important;
+  border: 1px solid white;
+  padding: 1rem 6.25rem;
+  margin-top: 2rem;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.title2 {
+  background-color: #F8AD03;
+}
+
+.event {
+  position: relative;
+  padding-top: 3rem;
+  padding-left: 9rem;
+  padding-bottom: 2rem;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  /* identical to box height */
+  color: #45B2E1;
+}
+
+.date1 {
+  padding-left: 1rem;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.75rem;
+  line-height: 47px;
+  /* identical to box height */
+  color: #45B2E1;
+}
+
+.date2 {
+  padding-left: 1rem;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 34px;
+  /* identical to box height */
+  color: #45B2E1;
+}
+
+.date1-2 {
+  padding-left: 1rem;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.55rem;
+  line-height: 47px;
+  /* identical to box height */
+  color: #45b2e1d0;
+}
+
+.date2-2 {
+  padding-left: 1rem;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 34px;
+  /* identical to box height */
+  color: #45b2e1d0;
+}
+
+.date1-3 {
+  padding-left: 1rem;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.35rem;
+  line-height: 47px;
+  /* identical to box height */
+  color: #45b2e1c0;
+}
+
+.date2-3 {
+  padding-left: 1rem;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 34px;
+  /* identical to box height */
+  color: #45b2e1c0;
+}
+
+.career {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 34px;
+  padding-left: 2rem;
+  color: #4A4A4A;
+}
+
+.career {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 34px;
+  padding-left: 2rem;
+  color: #4A4A4A;
+}
+
+.career2 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 34px;
+  padding-left: 2rem;
+  color: #4A4A4A;
+}
+
+.career3 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: .9rem;
+  line-height: 34px;
+  padding-left: 2rem;
+  color: #4A4A4A;
+}
+
+.dash {
+  width: 3.2rem;
+  height: .3rem;
+  background-color: #45B2E1;
+  margin-left: .9rem;
+}
+
+.dash2 {
+  width: 3rem;
+  height: .25rem;
+  background-color: #45b2e1d0;
+  margin-left: .9rem;
+}
+
+.dash3 {
+  width: 2.8rem;
+  height: .2rem;
+  background-color: #45b2e1c0;
+  margin-left: .9rem;
+}
+
+.upcoming {
+  margin-bottom: 2.5rem;
+}
+
+.contact-us {
+  position: relative;
+}
+
+.location {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: .9rem;
+  line-height: 140%;
+  /* or 20px */
+  max-width: 25rem;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  color: #45B2E1;
+}
+
+.web {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 23px;
+  /* identical to box height, or 162% */
+  margin-left: 2rem;
+  color: #45B2E1;
+}
+
+.icons {
+  margin-top: 1rem;
+}
+
+.fb {
+  width: 1rem;
+  margin-right: .5rem;
+}
+
+.ig {
+  width: 1rem;
+  margin-right: .5rem;
+}
+
+.twitr {
+  width: 1.5rem;
+  margin-right: .5rem;
+}
+
+.linkln {
+  width: 1.5rem;
+  margin-right: .5rem;
+}
+
+.copy-right {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 2rem;
+  /* identical to box height */
+  color: #45B2E1;
+}
+
+.policy {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 2rem;
+  color: #45B2E1;
+}
+/*# sourceMappingURL=EventMail.css.map */

@@ -1,0 +1,69 @@
+.learn-section {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.head {
+  padding-left: 3rem !important;
+}
+
+.learn-heading-one {
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+  display: inline;
+}
+
+.courses {
+  position: relative;
+  top: -0.5rem;
+  color: black;
+  background-color: #F8AD03;
+  border: transparent;
+  padding: .3rem  1.5rem;
+  font-size: .8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  border-radius: 1rem;
+}
+
+.learn-heading-two {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.93rem;
+}
+
+.header-learn-desc {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 140%;
+}
+
+.viewcourses {
+  color: #F8AD03;
+  background-color: transparent;
+  border: 2px solid #F8AD03;
+  width: 10rem;
+  height: 3rem;
+  margin-top: 40px;
+  font-weight: 700;
+  border-radius: .25rem;
+}
+
+.fa-long-arrow-alt-right {
+  margin-left: .7rem;
+}
+
+.grey-border {
+  border-bottom: 2px solid #B0B0B0;
+  padding-bottom: 4rem;
+}
+/*# sourceMappingURL=Learn.css.map */

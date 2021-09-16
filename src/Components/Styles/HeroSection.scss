@@ -1,0 +1,48 @@
+.hero-section {
+    background: url('../Images/background1.png') no-repeat;
+   height: 150vh;
+    padding: 10rem 0 0;
+  
+    width: 100%;
+  
+}
+
+.main-title{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    line-height:  5rem;
+    font-family: 'Archivo', serif;
+}
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.joincreek{
+    
+    color: white;
+    background-color: #0269BA;
+    border-color: #0269BA;
+    border: 1px solid transparent ;
+    padding: .80rem 7rem ;
+    margin-top: 2rem;
+    font-weight: 500;
+    border-radius: .25rem;
+    
+}
+
+.sideimage {
+    width: 25rem;
+
+  
+}
+
+
+@media screen and (max-width: 960px){
+    .hero-section{
+        height: 100%;
+    }
+}
