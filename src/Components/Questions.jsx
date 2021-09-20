@@ -9,16 +9,16 @@ import frequentimg from './Images/img4.png'
     return (
       <div className='questions'>
         <div class="container">
+          <div className="questions-heading asked">
+          Frequently <br/>Asked <br/>Questions
+          </div>
   <div class="row">
-    <div class="col-lg-6 asked ">
-    <div>
-    Frequently <br/>Asked <br/>Questions
-    </div>
+    <div class="col-lg-6  order-2">
     <div className='frequentimg'>
       <img src={frequentimg} alt="" />
     </div>
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6 order-1">
     <div className="accordion" id="accordionExample">
   <div className="accordion-item">
     <h2 className="accordion-header" id="headingOne">

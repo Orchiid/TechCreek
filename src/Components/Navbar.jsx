@@ -17,7 +17,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link to='/' id='Home' className=" active1 nav-link  active2" aria-current="page" >Home</Link>
+                            <Link to='/' id='Home' className=" active1 active2" aria-current="page" >Home</Link>
                         </li>
                         <li className="nav-item ps-5">
                             <Link to='/' id='AboutUs' className="nav-link text-sucess active2 " >About Us</Link>

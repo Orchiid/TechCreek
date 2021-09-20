@@ -13,6 +13,8 @@
     margin-bottom: 2rem;
     line-height:  5rem;
     font-family: 'Archivo', serif;
+    max-width: 27rem;
+
 }
 .subtitle {
     font-size: 1.5rem;
@@ -44,5 +46,12 @@
 @media screen and (max-width: 960px){
     .hero-section{
         height: 100%;
+    }
+    .sideimage{
+        width: 85%;
+        margin-top: 3rem;
+    }
+    img{
+        width: 100%;
     }
 }
