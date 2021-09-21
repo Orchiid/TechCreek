@@ -7,6 +7,7 @@ import Button from './Button'
 const Navbar = () => {
 
     return (
+
         <div className="navbar-background">
              <nav className="navbar navbar-expand-lg navbar-light fixed-top menu d-flex align-items-center">
   <div className="container d-flex align-items-center justify-content-between">
@@ -71,6 +72,27 @@ const Navbar = () => {
         //                 <li className="nav-item ps-5">
         //                     <Link to='/' id='Updates' className="nav-link text-sucess active2" >Updates</Link>
         //                 </li>
+
+        <nav className="navbar navbar-expand-lg navbar-dark bgc fixed-top">
+            <div className="container">
+                <Link to='/' className="navbar-brand" >
+                    <img src={logo} alt="Logo" />
+                </Link>
+                <button className="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon  "></span>
+                </button>
+                <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <Link to='/' id='Home' className=" active1 active2" aria-current="page" >Home</Link>
+                        </li>
+                        <li className="nav-item ps-5">
+                            <Link to='/' id='AboutUs' className="nav-link text-sucess active2 " >About Us</Link>
+                        </li>
+                        <li className="nav-item ps-5">
+                            <Link to='/' id='Updates' className="nav-link text-sucess active2" >Updates</Link>
+                        </li>
+
                         
         //                 <li className="nav-item dropdown ps-5">                           
         //                     <Link to='/' id='Community' className="nav-link dropdown-toggle text-sucess active2"  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

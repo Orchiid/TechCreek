@@ -3,6 +3,7 @@
     background: rgba(68, 106, 219, 0.5);
 }
 
+
  .navbar-brand img {
      width: 4rem;
  }
@@ -65,6 +66,32 @@
     margin: 0 5px;
     font-size: 14px;
   }
+
+.navbar-nav{
+    padding-top: 2rem;
+}
+
+.navbar-brand{
+    padding-top: 3rem !important;
+}
+.bgc {
+    background-color: transparent !important;
+    
+}
+
+.active1{
+    color: blue !important;
+    margin-top: 0.31rem;
+    background-color: white;
+    border-color: rgb(230, 230, 230);
+    text-transform: uppercase;
+    padding: .2rem .6rem !important; 
+    font-weight: 600 !important;
+    border-radius: 2rem;
+    display: block;
+    text-decoration: none;
+}
+
 
   .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
     color: #0269BA !important;
@@ -206,11 +233,14 @@
 
 // .active2:hover {
 //     color: blue !important;
-   
+
 //     background-color: white;
+=======
+    background-color: rgb(230, 230, 230);
+
    
 //     padding: .2rem .7rem !important;
-   
+
 //     font-weight: 600 !important;
 //     border-radius: 2rem;
     
@@ -232,6 +262,23 @@
 //     transition: none !important;
 // }
 
+    font-weight: 600 !important;
+    border-radius: 2rem;
+    transform: none;
+    
+}
+
+.text-sucess {
+    color: rgb(230, 230, 230) !important;
+}
+
+.nav-link{
+    font-weight: 300 ;
+    transition: none !important;
+    padding-left: 0 !important;
+}
+
+
 
 
 // .dropdowns{
@@ -248,6 +295,7 @@
 //     border: 0;
 // }
 
+
 // .dropdowns:focus, .dropdowns:hover{
 //     background-color: #fff;
 //     color: #0269BA ;
@@ -262,6 +310,22 @@
    
 //     padding: .1rem .8rem ;
 //     margin: -20px;
+
+.dropdowns:focus, .dropdowns:hover{
+    background-color: #fff;
+    color: #0269BA ;
+    border-left: 0.18rem #0269BA solid;
+}
+
+.login{
+    color: rgb(230, 230, 230);
+    background-color: #038c3300;
+    border-color: rgb(230, 230, 230);
+    border: 0.06rem solid ;
+   
+    padding: .1rem .8rem ;
+    
+
     
  
 //     border-radius: 1rem;
@@ -276,3 +340,20 @@
 //         margin-top: -20px;
 //     }
 // }
+
+@media screen and (max-width: 62em){
+    .navbar{
+        margin-top: -4.4rem;
+        
+    }
+    .active1{
+        margin-left: 2.8rem !important;
+    }
+    .active2:hover{
+        margin-top: 1rem;
+    }
+    .login{
+        margin: 0;
+    }
+}
+

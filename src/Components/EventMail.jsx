@@ -9,6 +9,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
  const EventMail = () => {
     return (
         <div className='EventMail-section'>
+
+
+            <div className="container-fluid">
+
                <div className="row">
                     <div className='title1 col-lg-6'>
                         <div className="container">
@@ -20,31 +24,39 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                         address, confirm you are happy to receive our emails and then select  ‘Subscribe’.
                         </h2>
 
+
                          <div class="name1">
                             <label class="visually-hidden" for="autoSizingInput">First Name</label>
-                            <input type="text" placeholder="First Name"
-                            class="forms text-start" id="autoSizingInput" >
-                            </input>
-                        </div>
+
+                        
+                      
                         <div class="name1">
-                            <label class="visually-hidden" for="autoSizingInput">Email Address </label>
-                            <input type="email" placeholder="Email Address "
-                            class="forms text-start" id="autoSizingInput" >
+                            <label className="visually-hidden" for="autoSizingInput">First Name</label>
+
+                            <input type="text" placeholder="First Name"
+                            className="forms text-start" id="autoSizingInput" >
                             </input>
                         </div>
-                        <Link to='/'>
-                            <button type="button" class=" submits">Submit</button>
+                        <div className="name1">
+                            <label className="visually-hidden" for="autoSizingInput">Email Address </label>
+                            <input type="email" placeholder="Email Address "
+                            className="forms text-start" id="autoSizingInput" >
+                            </input>
+                        </div>
+                        <div >
+                        <Link to='/' className="name1b">
+                            <button type="button" className=" submits">Submit</button>
                         </Link>
                         </div>
-                        
+
                     </div>
                     <div className=' col-lg-6 title2'>
                     <div className='event'>
                                 Upcoming Events
                     </div>
-                    <div class="container upcoming">
-                        <div class="row">
-                            <div class="col-lg-2 ">
+                    <div className="container upcoming">
+                        <div className="row">
+                            <div className="col-lg-2 ">
                            <div className='date1'>
                                15  
                            </div>
@@ -54,16 +66,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                            <div className='dash'>
                            </div>
                             </div>
-                            <div class="col-lg-10">
+                            <div className="col-lg-10">
                             <div className='career'>
                                 How To Balance School with Career Pursuit
                             </div>
                             </div>
                         </div>
                         </div>
-                        <div class="container upcoming">
-                        <div class="row">
-                            <div class="col-lg-2">
+                        <div className="container upcoming">
+                        <div className="row">
+                            <div className="col-lg-2">
                            <div className='date1-2'>
                                15  
                            </div>
@@ -73,16 +85,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                            <div className='dash2'>
                            </div>
                             </div>
-                            <div class="col-lg-10">
+                            <div className="col-lg-10">
                             <div className='career2'>
                                 How To Balance School with Career Pursuit
                             </div>
                             </div>
                         </div>
                         </div>
-                        <div class="container upcoming">
-                        <div class="row">
-                            <div class="col-lg-2 ">
+                        <div className="container upcoming">
+                        <div className="row">
+                            <div className="col-lg-2 ">
                            <div className='date1-3'>
                                15  
                            </div>
@@ -92,7 +104,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                            <div className='dash3'>
                            </div>
                             </div>
-                            <div class="col-lg-10">
+                            <div className="col-lg-10">
                             <div className='career3'>
                                 Codegaminators 9.0
                             </div>
@@ -101,9 +113,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                         </div>
                     </div>
                 </div>
+
                 <div className="container">
                 <div class="row">
-                    <div class="col-md-4 text-start contact-us">
+
+                <div className="row">
+                    <div className="col-lg-3 text-start contact-us">
                     <div className="location">
                         Rivers State ICT Department, opposite the Pleasure Park,
                         Aba Road, Port Harcourt
@@ -121,9 +136,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                     </div>
                     </div>
                     </div>
+
                     <div className="col-md-2"></div>
                     <div className="col-md-2"></div>
                     <div class="col-md-4 text-end copyright">
+
+                    <div className='col-lg-3'></div>
+                    <div className='col-lg-3'></div>
+                    <div className="col-lg-3  copyright">
+
                     <div className="copy-right">
                     &#169; 2021 Tech Creek, All Right Reserved
                     </div>
@@ -132,7 +153,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                     </div>
                     </div>
                 </div>
+
                 </div>
+
+            </div>
+
         </div>
        
     )

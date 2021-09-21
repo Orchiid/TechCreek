@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom'
 
  const Updates = () => {
     return (
-     <div className='updates'>
-        
+    <div className='updates'>
+      <div className="container">
         <div className='heading'>
            <h1 className='main-heading'>
                 Updates
@@ -74,6 +74,7 @@ import { Link } from 'react-router-dom'
     <span className="visually-hidden">Next</span>
   </button>
 </div>
+        </div>
         </div>
         </div>
     )
