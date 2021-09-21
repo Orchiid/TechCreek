@@ -1,0 +1,24 @@
+$secondary-button: #fff;
+
+.buttonstyle {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    width: 4.8rem;
+    height: 2rem;
+    border: 1px solid $secondary-button;
+    border-radius: 2rem;
+    color: white;
+    background-color: #0269BA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttonstyle:hover {
+    border-color: white;
+    background-color: white;
+    color: #0269BA !important;
+}
