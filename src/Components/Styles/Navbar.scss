@@ -1,7 +1,71 @@
-.navbar{
-    position: fixed;
-    height: 3rem;
+.navbar {
+    padding: 0;
+    background: rgba(68, 106, 219, 0.5);
 }
+
+
+ .navbar-brand img {
+     width: 4rem;
+ }
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .navbar li {
+    padding: 0 0.7rem;
+    position: relative;
+  }
+
+  .navbar .nav-link, .navbar .nav-link:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px 7px 15px;
+    margin-left: 5px;
+    font-weight: 400;
+    color: #fff !important;
+    white-space: nowrap;
+    text-transform: capitalize;
+    transition: 0.3s;
+    border-radius: 50px;
+  }
+
+  .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+    background:  #E8F5FB;
+    color: #0269BA !important;
+  }
+
+  .navbar .dropdown ul {
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: calc(100% + 30px);
+    margin: 5px  0 0 0;
+    padding: 10px 0;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: 0.3s;
+    border-radius: 15px;
+  }
+
+  .navbar .dropdown ul li {
+    min-width: 200px;
+  }
+
+  .navbar .dropdown ul a {
+    padding: 10px 20px;
+    color: #0269BA !important;
+    margin: 0 5px;
+    font-size: 14px;
+  }
 
 .navbar-nav{
     padding-top: 2rem;
@@ -28,13 +92,176 @@
     text-decoration: none;
 }
 
-.active2:hover {
-    color: blue !important;
-   
+
+  .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+    color: #0269BA !important;
+  }
+
+  .navbar .dropdown:hover > ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+  }
+
+  .navbar .dropdown .dropdown ul {
+    top: 0;
+    left: calc(100% - 30px);
+    visibility: hidden;
+  }
+
+  .navbar .dropdown .dropdown:hover > ul {
+    opacity: 1;
+    top: 0;
+    left: 100%;
+    visibility: visible;
+  }
+
+//   Mobile Navigation
+.navbar-toggler-icon {
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    line-height: 0;
+    transition: 0.5s;
+  }
+
+  @media (max-width: 991px) {
+    .navbar-toggler-icon {
+      display: block;
+    }
+    .navbar ul {
+      display: none;
+    }
+  }
+
+  .navbar-mobile {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: white;
+    transition: 0.3s;
+    z-index: 999;
+  }
+
+  .navbar-mobile .navbar-toggler-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+  .navbar-mobile ul {
+    display: block;
+    position: absolute;
+    top: 55px;
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow-y: auto;
+    transition: 0.3s;
+  }
+
+  .navbar-mobile a {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 15px;
+    color: #0269BA !important;
+  }
+
+// .menu {
+//     background-color: transparent;
+// }
+
+// .menu li {
+//     padding: 0 0.7rem;
+// }
+
+// .nav-link {
+//     color: #fff !important;
+//     text-transform: capitalize;
+//     font-weight: 400;
+//     border: .21rem solid transparent;
+// }
+
+// .navbar-brand img {
+//     width: 4rem;
+// }
+
+
+// .nav-link:focus {
+//     border: .21rem solid #E8F5FB;
+//     background-color: #E8F5FB;
+//     color: #0269BA !important;
+//     border-radius: 1rem;
+// }
+
+// .nav-link:hover {
+//     border: .21rem solid #E8F5FB;
+//     background-color: #E8F5FB;
+//     color: #0269BA !important;
+//     border-radius: 1rem;
+// }
+
+// .navbar{
+//     position: fixed;
+//     height: 3rem;
+// }
+
+// .navbar-brand{
+//     padding-top: 3rem !important;
+// }
+// .bgc {
+//     background-color: transparent !important;
+// }
+
+// .active1{
+//     color: blue !important;
+//     margin-top: 5px;
+//     background-color: white;
+//     border-color: #ffffff;
+//     text-transform: uppercase;
+//     padding: .2rem .6rem !important; 
+//     font-weight: 600 !important;
+//     border-radius: 2rem;
+// }
+
+// .active2:hover {
+//     color: blue !important;
+
+//     background-color: white;
+=======
     background-color: rgb(230, 230, 230);
+
    
-    padding: .2rem .7rem !important;
-   
+//     padding: .2rem .7rem !important;
+
+//     font-weight: 600 !important;
+//     border-radius: 2rem;
+    
+    
+// }
+
+// .active2:focus {
+//     background-color: white;
+// }
+
+
+
+// .text-sucess {
+//     color: white !important;
+// }
+
+// .nav-link{
+//     font-weight: 300 ;
+//     transition: none !important;
+// }
+
     font-weight: 600 !important;
     border-radius: 2rem;
     transform: none;
@@ -53,19 +280,36 @@
 
 
 
-.dropdowns{
-    display: block;
-    width: 100%;
-    padding: .25rem 1rem;
-    clear: both;
-    font-weight: 400;
-    color: black;
-    text-align: inherit;
-    text-decoration: none;
-    white-space: nowrap;
-    background-color: white;
-    border: 0;
-}
+
+// .dropdowns{
+//     display: block;
+//     width: 100%;
+//     padding: .25rem 1rem;
+//     clear: both;
+//     font-weight: 400;
+//     color: black;
+//     text-align: inherit;
+//     text-decoration: none;
+//     white-space: nowrap;
+//     background-color: white;
+//     border: 0;
+// }
+
+
+// .dropdowns:focus, .dropdowns:hover{
+//     background-color: #fff;
+//     color: #0269BA ;
+//     border-left: 3px #0269BA solid;
+// }
+
+// .login{
+//     color: white;
+//     background-color: #038c3300;
+//     border-color: #ffffff;
+//     border: 1px solid ;
+   
+//     padding: .1rem .8rem ;
+//     margin: -20px;
 
 .dropdowns:focus, .dropdowns:hover{
     background-color: #fff;
@@ -81,14 +325,21 @@
    
     padding: .1rem .8rem ;
     
+
     
  
-    border-radius: 1rem;
-}
+//     border-radius: 1rem;
+// }
 
-.login:hover, .login:focus{
-    padding: .2rem 1rem ;
-}
+// .login:hover, .login:focus{
+//     padding: .2rem 1rem ;
+// }
+
+// @media screen and (max-width: 960px){
+//     .container{
+//         margin-top: -20px;
+//     }
+// }
 
 @media screen and (max-width: 62em){
     .navbar{
@@ -105,3 +356,4 @@
         margin: 0;
     }
 }
+
